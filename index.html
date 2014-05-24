@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Louis Hoang's website for Launch Academy Application</title>
+  <meta charset="UTF-8" lang="en"/>
+  <meta name="description" content="First website to apply for bootcamp"/>
+  <meta name="author" content="Louis Hoang"/>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" type="text/css" href="css/timecube.jquery.css">
+</head>
+
+<body>
+  <div class="header_wrapper">
+    <div class="header">
+      <div class="logo">
+        <a href="/"><img alt="logo" src="images/logo.png" style="width: 125px height: 136px"></a>
+      </div>
+      <div id="navigation">
+        <ul id="nav">
+          <li><a href="#"><button class="button-home pure-button icon-home">HOME</button></a></li>
+          <li><a href="#education"><button class="button-myeducation pure-button">MY EDUCATION</button></a></li>
+          <li><a href="#career"><button class="button-mycareer pure-button">MY CAREER</button></a></li>
+          <li><a href="my_hobbies.html"><button class="button-thingsilike pure-button">MY HOBBIES</button></a></li>
+          <li><a href="#contact"><button class="button-contactme pure-button">CONTACT ME</button></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="seperator"></div>
+  </div>
+
+  <div id="wrapper">
+    
+    <div id="main">
+
+      <img src="images/main_pic.jpg" alt="Main picture" width="100%"/>
+
+      <div id="welcome_box">
+        <span id="welcome"><h1>Welcome to Louis Hoang's Website</h1></span>
+        <span class="sub_welcome">This page is created solely for the purpose of applying to Launch Academy.</span><br>
+        <span class="sub_welcome">Enjoy your time discovering the website! ^.^</span><br>
+      </div>
+      <div id="education" class="anchor"></div>
+      <!-- Begin of timeline - I copy and paste this part -->
+      <div id="tl">
+        <h2> <-!----- Education Background ------></h2>
+        <div id="content-wrapper">
+          <div id="timeline" class="timeCube"></div>
+          <div id="swipe"></div>
+        </div>
+        <a href="#" onclick="return false;" id="next-link"></a> <a href="#" onclick="return false;" id="prev-link" class="disabled"></a> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="js/timecube.jquery.js"></script> 
+        <script src="js/timecube.example.js"></script>
+      </div>
+      <!--end of timeline, finish copying :)-->
+      <div class="anchor2" id="career"></div>
+      <div id="three">
+        <!--
+        <table class="three_box" cellspacing="40px">
+          <tr><th class="tab" colspan="4">My Career</th></tr>
+          <tr>
+            <td class="data"><h3>Pho Thien Long Restraurant</h3><span id="text">2010 - 2011 <br> Award achieve: Best Restaurant in Humbolt county <br> Front of house position: Waiter, Cashier, Busboy</span></td>
+            <td class="data"><h3>Chinese Gourmet Express</h3><span id="text">2011 <br> Store Manager in Chinese Food, Japanese Grill Teriyaki, SubWay<br> Managed Store in San Jose, New Mexico and Texas.</span></td>
+            <td class="data"><h3>Subway</h3><span id="text">2012 <br> Area Manager of Subway in Redwood City</span></td>
+            <td class="data"><h3>Self-Employed</h3><span id="text">2012 - end of 2013 <br> Run my own sandwich and coffee shop on Outer-Richmond, San Francisco</span></td>
+          </tr>
+        </table> -->
+        <table border="1px" align="center">
+          <thead><td colspan="4"><h2>My Career History</h2></td></thead>
+          <tr>
+            <td colspan="4" align="center">
+              <img src="images/cook.png" width="226px" height="260px"/>
+              <img src="images/waiter.jpg" width="344px" height="250px"/>         
+              <img src="images/boss.jpg" width="200px" height="200px"/>
+          </tr>
+          <tr>
+            <td class="work_place vertical_line2">Pho Thien Long Restaurant</td>
+            <td class="work_place vertical_line2">Chinese Gourmet Express</td>
+            <td class="work_place vertical_line2">Subway</td>
+            <td class="work_place vertical_line2">Self-Employed</td>
+          </tr>
+          <tr>
+            <td class="row center vertical_line2">(2010 - 2011)</td>
+            <td class="row center vertical_line2">(2011)</td>
+            <td class="row center vertical_line2">(2012)</td>
+            <td class="row center vertical_line2">(2012 - End of 2013)</td>
+          </tr>
+          <tr>
+            <td class="row vertical_line2">- Front of house position: waiter, cashier, busboy.</td>
+            <td class="row vertical_line2">- Managed stores in San Jose, New Mexico and Texas.</td>
+            <td class="row vertical_line2">- Area Manager of Subway in Redwood City.</td>
+            <td class="row vertical_line2">- Run my own sandwich and coffee shop in Outer-Richmond, San Francisco.</td>
+          </tr>
+
+          <tr>
+            <td class="row vertical_line2">- Award achieved: Best restaurant in Humbolt county.</td>
+            <td class="row vertical_line2">- Store Manager specialized Chinese Food, Japanese Grill Teriyaki, Subway.</td>
+            <td class="row vertical_line2"></td>
+            <td class="row vertical_line2"></td>
+          </tr>
+        </table>
+      </div>
+      <br>
+    </div> <!-- end of main -->
+    
+  </div>
+  <div class="footer">
+    <div class="seperator"></div>
+    <br>
+    <div id="footer_top">
+      <div class="footer_link">
+        <ul class="vertical_line">
+          <li><a href="index.html"><span class="text3">Home</span></a></li>
+          <li><a href="index.html#education"><span class="text3">My Education</span></a></li>
+          <li><a href="index.html#career"><span class="text3">My Career</span></a></li>
+          <li><a href="my_hobbies.html"><span class="text3">My Hobbies</span></a></li>
+        </ul>
+      </div>
+    
+      <div id="contact" class="second_col_footer">
+        <ul id="contact_list">
+          <li class="space"><img src="images/skype.png" width="30px" height="30px"/>&nbsp;<span class="text3">Louishoang2</span></li>
+          <li class="space"><img src="images/mail.png" width="30px" height="30px"/>&nbsp;<span class="text3">bawsing@gmail.com</span></li>
+          <li class="space"><img src="images/phone.png" width="30px" height="30px"/>&nbsp;<span class="text3">510-520-6838</span></li>
+        </ul>
+      </div>
+      <span id="rotate">Thanks for visiting!</span>
+      <div class="text2">Written by: Louis Hoang<br>Last update: 21-05-2014</div>
+    </div>
+  </div> <!--end of wrapper -->
+
+  <!-- script for timeline start -->
+  <script type="text/javascript">
+
+    aq = _gaq || [];
+    ush(['_setAccount', 'UA-36251023-1']);
+    ush(['_setDomainName', 'jqueryscript.net']);
+    ush(['_trackPageview']);
+
+    ion() {
+    ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    rc = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    
+
+  </script>
+
+</body>
+</html>
